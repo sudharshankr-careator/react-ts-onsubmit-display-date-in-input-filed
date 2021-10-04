@@ -15,6 +15,7 @@ function App() {
   }
   return (
     <div>
+      <Hello name='' />
       <input type="text" placeholder= "display  current date" value={date} />
       <button onClick={changeit}>click to display date</button>
     </div>
